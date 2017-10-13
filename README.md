@@ -1,0 +1,2 @@
+# prettyscssy
+Prettifier for SCSS
