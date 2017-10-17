@@ -1,5 +1,3 @@
-require 'prettyscssy/version'
+Dir['./prettyscssy/**/*.rb'].sort.each { |f| require f }
 
-module Prettyscssy
-  # Your code goes here...
-end
+module Prettyscssy; end

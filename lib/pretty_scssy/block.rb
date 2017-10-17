@@ -1,4 +1,4 @@
-module Scss
+module PrettyScssy
   class Block
     attr_reader :current_indentation
 

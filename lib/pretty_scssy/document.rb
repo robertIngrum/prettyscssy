@@ -1,4 +1,4 @@
-module Scss
+module PrettyScssy
   class Document
     def initialize(path)
       @path        = path

@@ -1,4 +1,4 @@
-module Scss
+module PrettyScssy
   class Aligner
     def self.run
       new.run

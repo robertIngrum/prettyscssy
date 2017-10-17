@@ -1,15 +1,15 @@
-module Scss
+module PrettyScssy
   class Line
     def initialize(text)
       @text = text
     end
 
     def key
-      @key ||= text.split(':')[0]&.strip
+      @key ||= text.split(':')[0].try(:strip)
     end
 
     def value
-      @value ||= text.split(':')[1]&.strip
+      @value ||= text.split(':')[1].try(:strip)
     end
 
     def key_length
