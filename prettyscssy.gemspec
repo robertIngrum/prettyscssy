@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'prettyscssy/version'
+require 'pretty_scssy/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'prettyscssy'
-  spec.version       = Prettyscssy::VERSION
+  spec.version       = PrettyScssy::VERSION
   spec.authors       = ['Robert Ingrum']
   spec.email         = ['rkingrum@gmail.com']
 
@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.15'
   spec.add_development_dependency 'rake',    '~> 10.0'
   spec.add_development_dependency 'rspec',   '~> 3.0'
+  spec.add_development_dependency 'pry'
 end
